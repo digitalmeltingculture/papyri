@@ -1,0 +1,1438 @@
+/***************************************** 
+ ***************** HOME  *****************
+ *****************************************/
+#page-home{
+	color: white; 
+}
+
+#page-home .col-1{
+ 	width: 10%;
+ 	height: 100%;
+ 	float: left;
+ 	position: relative;
+}
+
+#page-home .col-1 .langs{
+	width: 100%;
+	margin: auto;
+}
+
+#page-home .col-1 .langs .lang{
+	width: 100%;
+	background-color: #222222;
+	border: 1px solid #303030;
+	font-size: 1.5em;
+	color: #FFF;
+	text-align: center;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+
+#page-home .col-2{
+ 	width: 75%;
+ 	height: 100%;
+ 	float: left;
+ 	position: relative;
+}
+
+#page-home .col-2 .main-logo{
+	position: relative;
+	width: 100%;
+	text-align: right;
+}
+
+#page-home .col-2 .main-logo img{
+	height: 500px;
+}
+
+#page-home .col-3{
+ 	width: 15%;
+ 	height: 100%;
+ 	float: left;
+ 	position: relative;
+}
+
+
+/***************************************** 
+ *************** PAGE ONE  ***************
+ *****************************************/
+#page-one .col-1{
+ 	width: 45%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-one .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-one .col-3{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-one .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-one .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 80%;
+	position: relative;
+}
+
+#page-one .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+}
+
+#page-one .logo-div img{
+	height: 100%;
+}
+
+#mutemuia-div{
+	background-image: url('../img/elements/modelli.png');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+/* DIV per i singoli oggetti */
+#naoforo-div{
+	background-image: url('../img/elements/naoforo.png');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#cubo-div{
+	background-image: url('../img/elements/cubo.png');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#paendua-div{
+	background-image: url('../img/elements/paendua.png');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#scultore-div{
+	background-image: url('../img/elements/scultore.png');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#testa-div{
+	background-image: url('../img/elements/testa.png');
+	background-color: #8B7D74;
+	position: relative;
+}
+/* */
+#ushabti-div{
+	background-image: url('../img/elements/ushabti.png');
+	background-color: #945E3A;
+	position: relative;
+}
+
+#page-one .txt-div p{
+	color: #FFF;
+	font-size: 1.2em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+
+
+.div-title{
+	position: absolute;
+	bottom: 10%;
+	background-color: rgba(255,255,255,0.32);
+	width: 100%; 
+	font-size: 3em;
+	color: #000;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 3px;
+}
+
+/***************************************** 
+ *************** PAGE OBJ1 ***************
+ *****************************************/
+#page-obj1 .col-1{
+ 	width: 65%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj1 .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj1 .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-obj1 .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 80%;
+	position: relative;
+}
+
+#page-obj1 .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+}
+
+#page-obj1 .logo-div img{
+	height: 100%;
+}
+
+#object-div{
+	background-image: url('../img/elements/modelli.png');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#page-obj1 .txt-div p{
+	color: #FFF;
+	font-size: 1.5em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+.div-title{
+	position: absolute;
+	bottom: 10%;
+	background-color: rgba(255,255,255,0.32);
+	width: 100%; 
+	font-size: 1.5em;
+	color: #000;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 3px;
+}
+
+
+/***************************************** 
+ *************** PAGE obj2 ***************
+ *****************************************/
+#page-obj2 .col-1{
+ 	width: 65%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj2 .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj2 .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-obj2 .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 80%;
+	position: relative;
+}
+
+#page-obj2 .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+}
+
+#page-obj2 .logo-div img{
+	height: 100%;
+}
+
+#object-div{
+	background-image: url('../img/elements/modelli.png');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#page-obj2 .txt-div p{
+	color: #FFF;
+	font-size: 1.5em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+.div-title{
+	position: absolute;
+	bottom: 10%;
+	background-color: rgba(255,255,255,0.32);
+	width: 100%; 
+	font-size: 1.5em;
+	color: #000;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 3px;
+}
+
+
+/***************************************** 
+ *************** PAGE obj3 ***************
+ *****************************************/
+#page-obj3 .col-1{
+ 	width: 65%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj3 .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj3 .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-obj3 .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 80%;
+	position: relative;
+}
+
+#page-obj3 .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+}
+
+#page-obj3 .logo-div img{
+	height: 100%;
+}
+
+#object-div{
+	background-image: url('../img/elements/modelli.png');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#page-obj3 .txt-div p{
+	color: #FFF;
+	font-size: 1.5em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+.div-title{
+	position: absolute;
+	bottom: 10%;
+	background-color: rgba(255,255,255,0.32);
+	width: 100%; 
+	font-size: 1.5em;
+	color: #000;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 3px;
+}
+
+
+/***************************************** 
+ *************** PAGE obj4 ***************
+ *****************************************/
+#page-obj4 .col-1{
+ 	width: 65%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj4 .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj4 .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-obj4 .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 80%;
+	position: relative;
+}
+
+#page-obj4 .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+}
+
+#page-obj4 .logo-div img{
+	height: 100%;
+}
+
+#object-div{
+	background-image: url('../img/elements/modelli.png');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#page-obj4 .txt-div p{
+	color: #FFF;
+	font-size: 1.5em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+.div-title{
+	position: absolute;
+	bottom: 10%;
+	background-color: rgba(255,255,255,0.32);
+	width: 100%; 
+	font-size: 1.5em;
+	color: #000;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 3px;
+}
+
+
+/***************************************** 
+ *************** PAGE obj5 ***************
+ *****************************************/
+#page-obj5 .col-1{
+ 	width: 65%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj5 .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj5 .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-obj5 .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 80%;
+	position: relative;
+}
+
+#page-obj5 .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+}
+
+#page-obj5 .logo-div img{
+	height: 100%;
+}
+
+#object-div{
+	background-image: url('../img/elements/modelli.png');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#page-obj5 .txt-div p{
+	color: #FFF;
+	font-size: 1.5em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+.div-title{
+	position: absolute;
+	bottom: 10%;
+	background-color: rgba(255,255,255,0.32);
+	width: 100%; 
+	font-size: 1.5em;
+	color: #000;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 3px;
+}
+
+
+/***************************************** 
+ ************ PAGE MUTEMUIA  *************
+ *****************************************/
+#page-mutemuia .row-1 img{
+	height: 45%;
+	box-sizing: border-box;
+}
+
+#page-mutemuia .row-2 img{
+	height: 45%;
+	box-sizing: border-box;
+}
+
+
+
+#page-mutemuia .col-1{
+ 	width: 45%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-mutemuia .col-2{
+ 	width: 18.2%;
+ 	height: 50%;
+ 	float: left;
+}
+
+#page-mutemuia .col-3{
+ 	width: 18.2%;
+ 	height: 50%;
+ 	float: left;
+}
+/* TODO */
+#page-mutemuia .col-4{
+ 	width: 18.2%;
+ 	height: 50%;
+ 	float: left;
+}
+
+#page-mutemuia .col-5{
+ 	width: 18.2%;
+ 	height: 50%;
+ 	float: left;
+}
+
+#page-mutemuia .col-6{
+ 	width: 18.2%;
+ 	height: 50%;
+ 	float: left;
+}
+/* TODO */
+#page-mutemuia .col-7{
+ 	width: 18.2%;
+ 	height: 50%;
+ 	float: left;
+}
+
+#page-mutemuia .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-mutemuia .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+}
+
+#page-mutemuia .logo-div img{
+	height: 100%;
+}
+
+#page-mutemuia .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 80%;
+	position: relative;
+}
+
+#mutemuia-gallery-link{
+	background-image: url('../img/elements/mutemuia-gallery.png');
+	background-color: #8B7D74;
+}
+
+#obj1-gallery-link{
+	background-image: url('../img/elements/mutemuia-gallery.png');
+	background-color: #8B7D74;
+}
+
+#obj2-gallery-link{
+	background-image: url('../img/elements/mutemuia-gallery.png');
+	background-color: #8B7D74;
+}
+
+#obj3-gallery-link{
+	background-image: url('../img/elements/mutemuia-gallery.png');
+	background-color: #8B7D74;
+}
+
+#obj4-gallery-link{
+	background-image: url('../img/elements/mutemuia-gallery.png');
+	background-color: #8B7D74;
+}
+
+#obj5-gallery-link{
+	background-image: url('../img/elements/mutemuia-gallery.png');
+	background-color: #8B7D74;
+}
+
+#mutemuia-3d-link{
+	background-image: url('../img/elements/mutemuia-3d.png');
+	background-color: #997b59;
+}
+
+#mutemuia-group1-link{
+	background-image: url('../img/elements/gruppo1.png');
+	background-color: #000000;
+}
+
+#mutemuia-group2-link{
+	background-image: url('../img/elements/gruppo2.png');
+	background-color: #080808;
+}
+
+#mutemuia-group3-link{
+	background-image: url('../img/elements/gruppo3.png');
+	background-color: #997b59;
+}
+
+#mutemuia-group4-link{
+	background-image: url('../img/elements/gruppo4.png');
+	background-color: #282828;
+}
+
+#mutemuia-group5-link{
+	background-image: url('../img/elements/gruppo5.png');
+	background-color: #383838;
+}
+
+#mutemuia-group6-link{
+	background-image: url('../img/elements/gruppo6.png');
+	background-color: #484848;
+}
+
+#page-mutemuia .txt-div p{
+	color: #FFF;
+	font-size: 1.5em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+
+/***************************************** 
+ *********** PAGE MUTEMUIA 3D  ***********
+ *****************************************/
+#page-mutemuia-3d .row-1{
+	margin: 0;
+	text-align: left;
+	position: relative;
+	width: 100%;
+	height: 22%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+#page-mutemuia-3d .row-1 img{
+	height: 100%;
+}
+
+#page-mutemuia-3d .row-2{
+	margin: 0;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: 78%;
+}
+
+#page-mutemuia-3d .row-2 .sel-div{
+	margin-left: 2.6%;
+	text-align: right;
+	position: relative;
+	width: 17%;
+	height: 90%;
+	float: left;
+	cursor: pointer;
+}
+
+#page-mutemuia-3d .row-2 .first{
+	margin: 0!important;
+}
+
+#page-mutemuia-3d .row-2 .sel-div img{
+	height: 100%;
+}
+
+/***************************************** 
+ *********** PAGE MUTEMUIA 2 3D  ***********
+ *****************************************/
+#page-mutemuia2-3d .row-1{
+	margin: 0;
+	text-align: left;
+	position: relative;
+	width: 100%;
+	height: 22%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+#page-mutemuia2-3d .row-1 img{
+	height: 100%;
+}
+
+#page-mutemuia2-3d .row-2{
+	margin: 0;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: 78%;
+}
+
+#page-mutemuia2-3d .row-2 .sel-div{
+	margin-left: 2.6%;
+	text-align: right;
+	position: relative;
+	width: 20%;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+}
+
+#page-mutemuia2-3d .row-2 .first{
+	margin: 0!important;
+}
+
+#page-mutemuia2-3d .row-2 .sel-div img{
+	height: 100%;
+}
+
+/***************************************** 
+ *********** PAGE MUTEMUIA 3 3D  ***********
+ *****************************************/
+#page-mutemuia3-3d .row-1{
+	margin: 0;
+	text-align: left;
+	position: relative;
+	width: 100%;
+	height: 22%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+#page-mutemuia3-3d .row-1 img{
+	height: 100%;
+}
+
+#page-mutemuia3-3d .row-2{
+	margin: 0;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: 78%;
+}
+
+#page-mutemuia3-3d .row-2 .sel-div{
+	margin-left: 2.6%;
+	text-align: right;
+	position: relative;
+	width: 20%;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+}
+
+#page-mutemuia3-3d .row-2 .first{
+	margin: 0!important;
+}
+
+#page-mutemuia3-3d .row-2 .sel-div img{
+	height: 100%;
+}
+
+/***************************************** 
+ *********** PAGE MUTEMUIA 4 3D  ***********
+ *****************************************/
+#page-mutemuia4-3d .row-1{
+	margin: 0;
+	text-align: left;
+	position: relative;
+	width: 100%;
+	height: 22%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+#page-mutemuia4-3d .row-1 img{
+	height: 100%;
+}
+
+#page-mutemuia4-3d .row-2{
+	margin: 0;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: 78%;
+}
+
+#page-mutemuia4-3d .row-2 .sel-div{
+	margin-left: 2.6%;
+	text-align: right;
+	position: relative;
+	width: 17%;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+}
+
+#page-mutemuia4-3d .row-2 .first{
+	margin: 0!important;
+}
+
+#page-mutemuia4-3d .row-2 .sel-div img{
+	height: 100%;
+}
+
+/***************************************** 
+ *********** PAGE MUTEMUIA 5 3D  ***********
+ *****************************************/
+#page-mutemuia5-3d .row-1{
+	margin: 0;
+	text-align: left;
+	position: relative;
+	width: 100%;
+	height: 22%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+#page-mutemuia5-3d .row-1 img{
+	height: 100%;
+}
+
+#page-mutemuia5-3d .row-2{
+	margin: 0;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: 78%;
+}
+
+#page-mutemuia5-3d .row-2 .sel-div{
+	margin-left: 2.6%;
+	text-align: right;
+	position: relative;
+	width: 17%;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+}
+
+#page-mutemuia5-3d .row-2 .first{
+	margin: 0!important;
+}
+
+#page-mutemuia5-3d .row-2 .sel-div img{
+	height: 100%;
+}
+
+/***************************************** 
+ *********** PAGE MUTEMUIA 6 3D  ***********
+ *****************************************/
+#page-mutemuia6-3d .row-1{
+	margin: 0;
+	text-align: left;
+	position: relative;
+	width: 100%;
+	height: 22%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+#page-mutemuia6-3d .row-1 img{
+	height: 100%;
+}
+
+#page-mutemuia6-3d .row-2{
+	margin: 0;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: 78%;
+}
+
+#page-mutemuia6-3d .row-2 .sel-div{
+	margin-left: 2.6%;
+	text-align: right;
+	position: relative;
+	width: 20%;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+}
+
+#page-mutemuia6-3d .row-2 .first{
+	margin: 0!important;
+}
+
+#page-mutemuia6-3d .row-2 .sel-div img{
+	height: 100%;
+}
+
+
+
+/***************************************** 
+ *********** PAGE GALLERY 5OBJ  ***********
+ *****************************************/
+#page-gallery-5objects .row-1{
+	margin: 0;
+	text-align: left;
+	position: relative;
+	width: 100%;
+	height: 22%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+#page-gallery-5objects .row-1 img{
+	height: 100%;
+}
+
+#page-gallery-5objects .row-2{
+	margin: 0;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: 78%;
+}
+
+#page-gallery-5objects .row-2 .sel-div{
+	margin-left: 2.6%;
+	text-align: right;
+	position: relative;
+	width: 17%;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+}
+
+#page-gallery-5objects .row-2 .first{
+	margin: 0!important;
+}
+
+#page-gallery-5objects .row-2 .sel-div img{
+	height: 100%;
+}
+
+
+
+/*****************************************/
+#page-obj1-gallery .gallery{
+ 	width: 100%;
+ 	height: 100%;
+}
+
+#page-obj1-gallery .gallery .swiper-container {
+    width: 100%;
+    height: 100%!important;
+}
+
+.m-swiper-button-prev {
+	background-image: url("../img/oth/prev.png")!important;
+}
+
+.m-swiper-button-next {
+	background-image: url("../img/oth/next.png")!important;
+}
+
+/*****************************************/
+#page-obj2-gallery .gallery{
+ 	width: 100%;
+ 	height: 100%;
+}
+
+#page-obj2-gallery .gallery .swiper-container {
+    width: 100%;
+    height: 100%!important;
+}
+
+.m-swiper-button-prev {
+	background-image: url("../img/oth/prev.png")!important;
+}
+
+.m-swiper-button-next {
+	background-image: url("../img/oth/next.png")!important;
+}
+
+
+/*****************************************/
+#page-obj3-gallery .gallery{
+ 	width: 100%;
+ 	height: 100%;
+}
+
+#page-obj3-gallery .gallery .swiper-container {
+    width: 100%;
+    height: 100%!important;
+}
+
+.m-swiper-button-prev {
+	background-image: url("../img/oth/prev.png")!important;
+}
+
+.m-swiper-button-next {
+	background-image: url("../img/oth/next.png")!important;
+}
+
+
+/*****************************************/
+#page-obj4-gallery .gallery{
+ 	width: 100%;
+ 	height: 100%;
+}
+
+#page-obj4-gallery .gallery .swiper-container {
+    width: 100%;
+    height: 100%!important;
+}
+
+.m-swiper-button-prev {
+	background-image: url("../img/oth/prev.png")!important;
+}
+
+.m-swiper-button-next {
+	background-image: url("../img/oth/next.png")!important;
+}
+
+
+/*****************************************/
+#page-obj5-gallery .gallery{
+ 	width: 100%;
+ 	height: 100%;
+}
+
+#page-obj5-gallery .gallery .swiper-container {
+    width: 100%;
+    height: 100%!important;
+}
+
+.m-swiper-button-prev {
+	background-image: url("../img/oth/prev.png")!important;
+}
+
+.m-swiper-button-next {
+	background-image: url("../img/oth/next.png")!important;
+}
+
+/***************************************** 
+ ********* PAGE MUTEMUIA GALLERY *********
+ *****************************************/
+#page-mutemuia-gallery .gallery{
+ 	width: 100%;
+ 	height: 100%;
+}
+
+#page-mutemuia-gallery .gallery .swiper-container {
+    width: 100%;
+    height: 100%!important;
+}
+
+.m-swiper-button-prev {
+	background-image: url("../img/oth/prev.png")!important;
+}
+
+.m-swiper-button-next {
+	background-image: url("../img/oth/next.png")!important;
+}
+
+
+/***************************************** 
+ ************* PAGE USHABTI  *************
+ *****************************************/
+#page-ushabti .col-1{
+ 	width: 45%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-ushabti .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-ushabti .col-3{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-ushabti .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-ushabti .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+}
+
+#page-ushabti .logo-div img{
+	height: 100%;
+}
+
+#page-ushabti .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 80%;
+	position: relative;
+}
+
+#ushabti-gallery-link{
+	background-image: url('../img/elements/no-mutemuia-gallery.png');
+	background-color: #8B7D74;
+}
+
+#ushabti-3d-link{
+	background-image: url('../img/elements/no-mutemuia-3d.png');
+	background-color: #945E3A;
+}
+
+#page-ushabti .txt-div p{
+	color: #FFF;
+	font-size: 1.5em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+
+
+/***************************************** 
+ *********** PAGE USHABTI 3D  ***********
+ *****************************************/
+#page-ushabti-3d .row-1{
+	margin: 0;
+	text-align: left;
+	position: relative;
+	width: 100%;
+	height: 22%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+#page-ushabti-3d .row-1 img{
+	height: 100%;
+}
+
+#page-ushabti-3d .row-2{
+	margin: 0;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: 78%;
+}
+
+#page-ushabti-3d .row-2 .sel-div{
+	margin-left: 2.6%;
+	text-align: right;
+	position: relative;
+	width: 23%;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+}
+
+#page-ushabti-3d .sel-div-empty{
+	width: 11.5%!important;
+	cursor: auto!important;
+}
+
+
+#page-ushabti-3d .row-2 .first{
+	margin: 0!important;
+}
+
+#page-ushabti-3d .row-2 .sel-div img{
+	height: 100%;
+}
+
+
+/***************************************** 
+ ********* PAGE USHABTI GALLERY *********
+ *****************************************/
+#page-ushabti-gallery .gallery{
+ 	width: 100%;
+ 	height: 100%;
+}
+
+#page-ushabti-gallery .gallery .swiper-container {
+    width: 100%;
+    height: 100%!important;
+}
+
+.u-swiper-button-prev {
+	background-image: url("../img/oth/prev.png")!important;
+}
+
+.u-swiper-button-next {
+	background-image: url("../img/oth/next.png")!important;
+}
+
+
+
+
+/***************************************** 
+ *************** PAGE USH  ***************
+ *****************************************/
+#page-ush .row{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#page-ush .col-1{
+ 	width: 50%;
+ 	float: left;
+ 	text-align: left;
+ 	padding: 3%;
+}
+
+#page-ush .col-1 .txt p{
+ 	font-size: 1.5em;
+ 	line-height: 1.5;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#page-ush .col-2{
+ 	width: 50%;
+ 	float: left;
+ 	text-align: center;
+ 	padding: 3%;
+}
+
+#page-ush .col-2 img{
+}
+
+
+
+
+/***************************************** 
+ ************* PAGE USH SLIDE  ***********
+ *****************************************/
+#page-ush-slide .row{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#page-ush-slide .col-1{
+ 	width: 50%;
+ 	float: left;
+ 	text-align: left;
+ 	padding: 3%;
+}
+
+#page-ush-slide .col-1 .txt p{
+ 	font-size: 1.5em;
+ 	line-height: 1.5;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#page-ush-slide .col-2{
+ 	width: 50%;
+ 	float: left;
+ 	text-align: center;
+ 	padding: 3%;
+}
+
+#page-ush-slide .col-2 img{
+}
+
+.swiper-container {
+	margin-top: 20px;
+    width: 100%;
+    height: 600px;
+}
+
+.ushabtiSwiper-button-prev{
+	position: absolute;
+	top:50%;
+	left: 10px;
+	color: #FFF;
+	opacity: 0.5;
+	cursor: pointer;	
+}
+
+.ushabtiSwiper-button-prev:hover{
+	opacity: 1;
+}
+
+.ushabtiSwiper-button-next{
+	position: absolute;
+	top:50%;
+	right: 10px;
+	color: #FFF;
+	opacity: 0.5;
+	cursor: pointer;	
+}
+
+.ushabtiSwiper-button-next:hover{
+	opacity: 1;
+}

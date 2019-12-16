@@ -1,4 +1,4 @@
-/* @pjs preload="img/elements/papiro_1_o.png","img/elements/papiro-arrotolato.png"; */
+/* @pjs preload="img/elements/papiro_1.png","img/elements/papiro-arrotolato_v.png"; */
 
 PImage papiro, arrotolato;
 
@@ -10,8 +10,8 @@ void setup() {
   rectMode(CENTER);
   
   // Load images
-  papiro = loadImage("img/elements/papiro_1_o.png");
-  arrotolato = loadImage("img/elements/papiro-arrotolato.png");
+  papiro = loadImage("img/elements/papiro_1.png");
+  arrotolato = loadImage("img/elements/papiro-arrotolato_v.png");
 }
 
 void draw() {
@@ -19,15 +19,20 @@ void draw() {
   background(bgColor);
   
   int padding = 50;
-  float papiroWidth = width - (padding * 2),
-        papiroHeight = (height * 2) / 3;
+  float papiroWidth = (width * 2) / 3,
+        papiroHeight = height - (padding * 2);
   
-  image(papiro, padding, (height - papiroHeight) / 2, papiroWidth, papiroHeight);
+  image(papiro, (width - papiroWidth) / 2, padding, papiroWidth, papiroHeight);
 
-  float startPosition = map(mouseX, padding, width - padding, 0, height);
+  float startPosition = padding;
+
+  if(mouseY >= (height - padding))
+    startPosition = height - (2 * padding);
+  else if(mouseY >= padding)
+    startPosition = map(mouseY, padding, height - padding, padding, height - (2 * padding));
   
   fill(bgColor);
-  rect((width / 2) + startPosition + padding, height / 2, papiroWidth, papiroHeight);
+  rect(width / 2, (height / 2) + startPosition - padding, papiroWidth, papiroHeight);
   
-  image(arrotolato, startPosition + (padding * 2), (height - papiroHeight) / 2, 50, papiroHeight);
+  image(arrotolato, (width - papiroWidth) / 2, startPosition, papiroWidth, 50);
 }

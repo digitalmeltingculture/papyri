@@ -1,0 +1,16 @@
+<!--
+***************************************************
+***************** RENDER PAPIRO 2 ***************
+***************************************************
+-->
+<div id="page-papiro-2" class="page page-papiro" style="display: none;">
+    <i class="fa fa-times-circle-o fa-3x nav-close nav-goPage" data-pageid="page-obj2" aria-hidden="true"></i>
+    <canvas id="papiro-2-canvas"></canvas>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var canvasLeft = $('#papiro-2-canvas').position().left;
+            Processing.loadSketchFromSources(document.getElementById("papiro-2-canvas"), ['processing/papiro_2.pde']);
+        });
+    </script>
+</div>
+<!--=== END PAPIRO 1 ===-->	

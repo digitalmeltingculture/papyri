@@ -13,7 +13,7 @@ var navigation = (function() {
     var goPage = function() {
         var d = $.Deferred();
 
-		$( ".nav-goPage" ).on( "click", function() {
+		$(document).on( "click",  ".nav-goPage" , function() {
 		  	console.log( "Go Page" );
 			var pageId = $(this).data('pageid');
             /*
@@ -25,13 +25,19 @@ var navigation = (function() {
             var currPageId = $(this).parents('.page').attr('id'); //destination page id
             var funcName = $(this).data('cbfunc'); //callback function
             $('#'+currPageId).fadeOut(fadeSpeed, function () {
-                $("#"+pageId).delay(delayVal).fadeIn(fadeSpeed, function () {
-                    // Execute callback function if defined
-                    console.log(funcName);
-                    if (typeof window[funcName] === "function") {
-                        window[funcName]();
-                    }                     
-                });         
+                console.log('Navigating to: ' + pageId+'.htm');
+                $.get("../" + pageId+'.htm', function (response) {
+                    $("#DivContent").html(response);   
+                    $("#"+pageId).delay(delayVal).fadeIn(fadeSpeed, function () {
+                        // Execute callback function if defined
+                        console.log(funcName);
+                        if (typeof window[funcName] === "function")
+                            window[funcName]();
+                        else
+                            console.log(funcName + " function does not exist");
+                        i18n.init(selectedLang);
+                    });    
+                });        
             });     	
 		});
 
@@ -49,7 +55,12 @@ var navigation = (function() {
         */   
         // Fade effect transition
         $('#'+pageIdFrom).fadeOut(fadeSpeed, function () {
-            $("#"+pageIdTo).delay(delayVal).fadeIn(fadeSpeed);
+            console.log('Navigating to: ' + pageIdTo+'.htm');
+            $.get("../" + pageIdTo+'.htm', function (response) {
+                $("#DivContent").html(response);
+                $("#"+pageIdTo).delay(delayVal).fadeIn(fadeSpeed);
+                i18n.init(selectedLang);
+            });      
         });      
            
         d.resolve();

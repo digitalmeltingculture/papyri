@@ -1,4 +1,5 @@
 function trans_go(lang, page_id_from, page_id_to) {
+	selectedLang = lang;
 	i18n.init(lang);
 	navigation.actGoPage(page_id_from, page_id_to);
 }

@@ -6,7 +6,7 @@ var render_mute_1 = (function() {
 
     var objPath = 'models/cubo/';
     var objName = 'statuaCubo_lp';
-    var conainerId = 'render_mute1';
+    var conainerId = 'page-papiro-1';
 
     var container;
 

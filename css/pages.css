@@ -65,13 +65,7 @@
 }
 
 #page-one .col-2{
- 	width: 27.5%;
- 	height: 100%;
- 	float: left;
-}
-
-#page-one .col-3{
- 	width: 27.5%;
+ 	width: 55%;
  	height: 100%;
  	float: left;
 }
@@ -109,39 +103,39 @@
 	height: 100%;
 }
 
-#mutemuia-div{
-	background-image: url('../img/elements/modelli.png');
+#papiri-div{
+	background-image: url('../img/elements/papiri.png');
 	background-color: #8B7D74;
 	position: relative;
 }
 
 /* DIV per i singoli oggetti */
-#naoforo-div{
-	background-image: url('../img/elements/naoforo.png');
+#papiro-1-div{
+	background-image: url('../img/elements/papiro_1.jpg');
 	background-color: #8B7D74;
 	position: relative;
 }
 
-#cubo-div{
-	background-image: url('../img/elements/cubo.png');
+#papiro-2-div{
+	background-image: url('../img/elements/papiro_2.jpg');
 	background-color: #8B7D74;
 	position: relative;
 }
 
-#paendua-div{
-	background-image: url('../img/elements/paendua.png');
+#papiro-3-div{
+	background-image: url('../img/elements/papiro_3.jpg');
 	background-color: #8B7D74;
 	position: relative;
 }
 
-#scultore-div{
-	background-image: url('../img/elements/scultore.png');
+#papiro-4-div{
+	background-image: url('../img/elements/papiro_4.jpg');
 	background-color: #8B7D74;
 	position: relative;
 }
 
-#testa-div{
-	background-image: url('../img/elements/testa.png');
+#papiro-5-div{
+	background-image: url('../img/elements/papiro_5.jpg');
 	background-color: #8B7D74;
 	position: relative;
 }
@@ -175,6 +169,12 @@
 	color: #000;
 	font-family: 'Josefin Sans', sans-serif;
 	padding: 3px;
+}
+
+.page-papiro{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 /***************************************** 
@@ -736,9 +736,9 @@
 
 
 /***************************************** 
- *********** PAGE MUTEMUIA 3D  ***********
+ *********** PAGE PAPIRI  ***********
  *****************************************/
-#page-mutemuia-3d .row-1{
+#page-papiri .row-1{
 	margin: 0;
 	text-align: left;
 	position: relative;
@@ -751,11 +751,11 @@
 	box-sizing: border-box;	
 }
 
-#page-mutemuia-3d .row-1 img{
+#page-papiri .row-1 img{
 	height: 100%;
 }
 
-#page-mutemuia-3d .row-2{
+#page-papiri .row-2{
 	margin: 0;
 	text-align: center;
 	position: relative;
@@ -763,7 +763,7 @@
 	height: 78%;
 }
 
-#page-mutemuia-3d .row-2 .sel-div{
+#page-papiri .row-2 .sel-div{
 	margin-left: 2.6%;
 	text-align: right;
 	position: relative;
@@ -773,11 +773,11 @@
 	cursor: pointer;
 }
 
-#page-mutemuia-3d .row-2 .first{
+#page-papiri .row-2 .first{
 	margin: 0!important;
 }
 
-#page-mutemuia-3d .row-2 .sel-div img{
+#page-papiri .row-2 .sel-div img{
 	height: 100%;
 }
 

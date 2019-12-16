@@ -3,7 +3,7 @@ var obj1Gallery = (function() {
     var swiper;
 
     var init = function() {
-        $('#obj1-gallery').data('started', 'no');
+        $(document).find('#obj1-gallery').data('started', 'no');
     }
 
     var start = function() {
@@ -19,7 +19,7 @@ var obj1Gallery = (function() {
                     prevButton: '.m-swiper-button-prev'
                 });
 
-            $('#obj1-gallery').data('started', 'yes');
+                $(document).find('#obj1-gallery').data('started', 'yes');
         }
     }
 

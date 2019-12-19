@@ -140,8 +140,8 @@
 	position: relative;
 }
 /* */
-#ushabti-div{
-	background-image: url('../img/elements/ushabti.png');
+#gallery-div{
+	background-image: url('../img/elements/gallery.jpg');
 	background-color: #945E3A;
 	position: relative;
 }
@@ -180,16 +180,22 @@
 /***************************************** 
  *************** PAGE OBJ1 ***************
  *****************************************/
-#page-obj1 .col-1{
- 	width: 65%;
- 	height: 100%;
- 	float: left;
+#page-one .col-1{
+	width: 45%;
+	height: 100%;
+	float: left;
 }
 
-#page-obj1 .col-2{
- 	width: 27.5%;
- 	height: 100%;
- 	float: left;
+#page-one .col-2{
+	width: 27.5%;
+	height: 100%;
+	float: left;
+}
+
+#page-one .col-3{
+	width: 27.5%;
+	height: 100%;
+	float: left;
 }
 
 #page-obj1 .img-div{

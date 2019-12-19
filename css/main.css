@@ -115,3 +115,9 @@ html, body {
        url('../fonts/josefin-sans-v9-latin/josefin-sans-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/josefin-sans-v9-latin/josefin-sans-v9-latin-regular.svg#JosefinSans') format('svg'); /* Legacy iOS */
 }
+
+
+@font-face{
+	font-family: aegyptus;
+	src: url(../fonts/aegyptus/Gardiner.ttf);
+}

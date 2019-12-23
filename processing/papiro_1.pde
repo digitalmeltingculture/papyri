@@ -3,8 +3,7 @@
 PImage papiro, arrotolato;
 
 void setup() {
-  float multiplier = 1.25;
-  size(1024 * multiplier, 768 * multiplier);
+  size(1024 * getMultiplier(), 768 * getMultiplier());
   noStroke();
   colorMode(RGB, height, height, height);
   rectMode(CENTER);

@@ -97,6 +97,13 @@ html, body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.papiro-anim{
+    -webkit-animation: animatedBackground 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: animatedBackground 15s linear 1;
+    animation-fill-mode: forwards;
+}
+
 
 /***************************************** 
  **************** WEB FONT ***************
@@ -120,4 +127,18 @@ html, body {
 @font-face{
 	font-family: aegyptus;
 	src: url(../fonts/aegyptus/Gardiner.ttf);
+}
+
+
+/***************************************** 
+ *************** ANIMATIONS **************
+ *****************************************/
+
+@keyframes animatedBackground {
+    from{
+		background-position: 0 0;
+	}
+    to{
+		background-position: 100% 0;
+	}
 }

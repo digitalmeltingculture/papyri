@@ -260,6 +260,10 @@
 	<script type="text/javascript">
 		var selectedLang;
 
+		function getMultiplier(){
+			return 1.25;
+		}
+
 	    $(document).ready(function() {
 			$.get('page-home.htm', function (response) {
 				$("#DivContent").html(response);

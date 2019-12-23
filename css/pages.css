@@ -58,16 +58,22 @@
 /***************************************** 
  *************** PAGE ONE  ***************
  *****************************************/
-#page-one .col-1{
- 	width: 45%;
- 	height: 100%;
- 	float: left;
+ #page-one .col-1{
+	width: 45%;
+	height: 100%;
+	float: left;
 }
 
 #page-one .col-2{
- 	width: 55%;
- 	height: 100%;
- 	float: left;
+	width: 27.5%;
+	height: 100%;
+	float: left;
+}
+
+#page-one .col-3{
+	width: 27.5%;
+	height: 100%;
+	float: left;
 }
 
 #page-one .img-div{
@@ -110,8 +116,20 @@
 }
 
 /* DIV per i singoli oggetti */
+#papiro-1-anim{
+	background-image: url('../img/elements/papiro_1.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
 #papiro-1-div{
 	background-image: url('../img/elements/papiro_1.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#papiro-2-anim{
+	background-image: url('../img/elements/papiro_2.jpg');
 	background-color: #8B7D74;
 	position: relative;
 }
@@ -122,14 +140,32 @@
 	position: relative;
 }
 
+#papiro-3-anim{
+	background-image: url('../img/elements/papiro_3.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
 #papiro-3-div{
 	background-image: url('../img/elements/papiro_3.jpg');
 	background-color: #8B7D74;
 	position: relative;
 }
 
+#papiro-4-anim{
+	background-image: url('../img/elements/papiro_4.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
 #papiro-4-div{
 	background-image: url('../img/elements/papiro_4.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#papiro-5-anim{
+	background-image: url('../img/elements/papiro_5.jpg');
 	background-color: #8B7D74;
 	position: relative;
 }
@@ -180,19 +216,19 @@
 /***************************************** 
  *************** PAGE OBJ1 ***************
  *****************************************/
-#page-one .col-1{
+#page-obj1 .col-1{
 	width: 45%;
 	height: 100%;
 	float: left;
 }
 
-#page-one .col-2{
+#page-obj1 .col-2{
 	width: 27.5%;
 	height: 100%;
 	float: left;
 }
 
-#page-one .col-3{
+#page-obj1 .col-3{
 	width: 27.5%;
 	height: 100%;
 	float: left;
@@ -265,12 +301,18 @@
  *************** PAGE obj2 ***************
  *****************************************/
 #page-obj2 .col-1{
- 	width: 65%;
+	width: 45%;
  	height: 100%;
  	float: left;
 }
 
 #page-obj2 .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj2 .col-3{
  	width: 27.5%;
  	height: 100%;
  	float: left;
@@ -343,12 +385,18 @@
  *************** PAGE obj3 ***************
  *****************************************/
 #page-obj3 .col-1{
- 	width: 65%;
+	width: 45%;
  	height: 100%;
  	float: left;
 }
 
 #page-obj3 .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj3 .col-3{
  	width: 27.5%;
  	height: 100%;
  	float: left;
@@ -421,12 +469,18 @@
  *************** PAGE obj4 ***************
  *****************************************/
 #page-obj4 .col-1{
- 	width: 65%;
+	width: 45%;
  	height: 100%;
  	float: left;
 }
 
 #page-obj4 .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj4 .col-3{
  	width: 27.5%;
  	height: 100%;
  	float: left;
@@ -499,12 +553,18 @@
  *************** PAGE obj5 ***************
  *****************************************/
 #page-obj5 .col-1{
- 	width: 65%;
+ 	width: 45%;
  	height: 100%;
  	float: left;
 }
 
 #page-obj5 .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj5 .col-3{
  	width: 27.5%;
  	height: 100%;
  	float: left;

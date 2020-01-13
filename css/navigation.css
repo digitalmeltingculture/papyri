@@ -29,6 +29,22 @@
 	margin-left: 20px;
 }
 
+.model-navs{
+	width: 100vw;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	padding: 0 30px;
+}
+
+.model-navs i:first-child{
+	float: left;
+}
+
+.model-navs i:last-child{
+	float: right;
+}
+
 .nav-close{
 	position: absolute;
 	top:10px;

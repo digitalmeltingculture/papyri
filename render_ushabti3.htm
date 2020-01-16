@@ -1,0 +1,59 @@
+<!--
+***************************************************
+***************** RENDER USHABTI 3 ****************
+***************************************************
+-->
+<div id="render_ushabti3" class="page" style="display: none;">
+	<i class="fa fa-times-circle-o fa-3x nav-close nav-goPage" data-pageid="page-obj2" data-cbfunc="stopUshabti3" aria-hidden="true"></i>
+	<div id="dpi_2"></div>
+	<p style="color:#808080" id="demo2"></p>
+	<div id="footer2">
+	<table align="center" >
+		<td align="right" valign="center">
+			<div id="g2"></div>
+			<script src="./js/raphael-2.1.4.min.js"></script>
+			<script src="./js/justgage.js"></script>
+			<script>
+				var g2;
+				var valGage2=100;
+				val = getRandomInt(0, 200);
+
+				g2 = new JustGage({
+					id: "g2",
+					value: val,
+					min: 0,
+					max: 200,
+					title: "",
+					label: "of real size"
+				});
+				setInterval(function() {
+					g2.refresh(valGage2);
+					valGage2=100;
+				}, 250);
+			</script>
+		</td>
+		
+		<td align="left" valign="bottom">
+			<span tkey="3dsize"></span><br>
+			<span tkey="realsize"></span><br>
+			<span id="void"></span><br>
+		</td>
+		<td align="left" valign="bottom">
+			<span id="myText3">2 cm</span><br>
+			<span id="myText4">3 cm</span><br>
+			<span id="void"></span><br>
+		</td>
+</table>
+	</p>
+</div>
+</div>
+<!--=== END RENDER USHABTI 3 ===-->
+
+<script>
+    render_ushabti3.init();
+    animateUshabti3();
+
+	$(document).on('click', '#render_ushabti3 > i.nav-close', function(){
+		stopUshabti3();
+	});
+</script>

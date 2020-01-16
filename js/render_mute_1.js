@@ -189,16 +189,19 @@ var render_mute_1 = (function() {
 				outputA=part;
 				contaZoom=t;
 			}
-			if (t==0) outputA=altezzaPixel;
-			var dpi=document.getElementById("dpi").offsetHeight;
-			var prtOut = outputA*(2.54/dpi);
-			prtOut = prtOut.toFixed(2);
-			document.getElementById("myText").innerHTML = prtOut +' cm';//a*0.02871;
-			document.getElementById("myText2").innerHTML = objRealSizecm +' cm';//a*0.02871;
-			//var slider = document.getElementById("myRange");
-			//slider.value=prtOut*5000/objRealSizecm;
-			//document.getElementById("g1").value=prtOut*200/objRealSizecm;
-			valGage1=prtOut*100/objRealSizecm;
+            if (t==0) outputA=altezzaPixel;
+            var dpiCont=document.getElementById("dpi");
+            if(dpiCont){
+                var dpi=dpiCont.offsetHeight;
+                var prtOut = outputA*(2.54/dpi);
+                prtOut = prtOut.toFixed(2);
+                document.getElementById("myText").innerHTML = prtOut +' cm';//a*0.02871;
+                document.getElementById("myText2").innerHTML = objRealSizecm +' cm';//a*0.02871;
+                //var slider = document.getElementById("myRange");
+                //slider.value=prtOut*5000/objRealSizecm;
+                //document.getElementById("g1").value=prtOut*200/objRealSizecm;
+                valGage1=prtOut*100/objRealSizecm;
+            }
 	}
 
     function stop(){

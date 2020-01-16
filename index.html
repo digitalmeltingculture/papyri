@@ -15,14 +15,6 @@
 	<!-- Fonts -->
 	<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
 
-	<script src="jquery.js"></script> 
-    <script> 
-    $(function(){
-      $("#DivContent").load("test1.html"); 
-    });
-    </script> 
-	
-	
 	 <style>
         body {
             overflow: hidden;
@@ -264,6 +256,9 @@
 	<script type="text/javascript" src="js/obj3Gallery.js"></script>
 	<script type="text/javascript" src="js/obj4Gallery.js"></script>
 	<script type="text/javascript" src="js/obj5Gallery.js"></script>
+	
+	<script src="./js/raphael-2.1.4.min.js"></script>
+	<script src="./js/justgage.js"></script>
 	<!-- Document Ready -->
 	<script type="text/javascript">
 		var selectedLang;
@@ -313,7 +308,7 @@
 	    	// Inizialize timer
 	    	timerCleaner.init(120, clearAndGoHome);
 
-			touchSoundInit();
+			// touchSoundInit();
 	    });
 	</script>
 

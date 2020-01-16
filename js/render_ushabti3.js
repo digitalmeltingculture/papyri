@@ -190,15 +190,18 @@ var render_ushabti3 = (function() {
 				contaZoom=t;
 			}
 			if (t==0) outputA=altezzaPixel;
-			var dpi=document.getElementById("dpi_2").offsetHeight;
-			var prtOut = outputA*(2.54/dpi);
-			prtOut = prtOut.toFixed(2);
-			document.getElementById("myText3").innerHTML = prtOut +' cm';//a*0.02871;
-			document.getElementById("myText4").innerHTML = objRealSizecm +' cm';//a*0.02871;
-			//var slider = document.getElementById("myRange");
-			//slider.value=prtOut*5000/objRealSizecm;
-			//document.getElementById("g1").value=prtOut*200/objRealSizecm;
-			valGage2=prtOut*100/objRealSizecm;
+			var dpiCont=document.getElementById("dpi_2");
+            if(dpiCont){
+                var dpi=dpiCont.offsetHeight;
+                var prtOut = outputA*(2.54/dpi);
+                prtOut = prtOut.toFixed(2);
+                document.getElementById("myText3").innerHTML = prtOut +' cm';//a*0.02871;
+                document.getElementById("myText4").innerHTML = objRealSizecm +' cm';//a*0.02871;
+                //var slider = document.getElementById("myRange");
+                //slider.value=prtOut*5000/objRealSizecm;
+                //document.getElementById("g1").value=prtOut*200/objRealSizecm;
+                valGage2=prtOut*100/objRealSizecm;
+            }
 		
     }
 

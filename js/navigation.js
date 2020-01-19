@@ -26,7 +26,7 @@ var navigation = (function() {
             var funcName = $(this).data('cbfunc'); //callback function
             $('#'+currPageId).fadeOut(fadeSpeed, function () {
                 console.log('Navigating to: ' + pageId+'.htm');
-                $.get("../" + pageId+'.htm', function (response) {
+                $.get(pageId+'.htm', function (response) {
                     $("#DivContent").html(response);   
                     $("#"+pageId).delay(delayVal).fadeIn(fadeSpeed, function () {
                         // Execute callback function if defined
@@ -56,7 +56,7 @@ var navigation = (function() {
         // Fade effect transition
         $('#'+pageIdFrom).fadeOut(fadeSpeed, function () {
             console.log('Navigating to: ' + pageIdTo+'.htm');
-            $.get("../" + pageIdTo+'.htm', function (response) {
+            $.get(pageIdTo+'.htm', function (response) {
                 $("#DivContent").html(response);
                 $("#"+pageIdTo).delay(delayVal).fadeIn(fadeSpeed);
                 i18n.init(selectedLang);

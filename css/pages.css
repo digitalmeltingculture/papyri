@@ -56,27 +56,27 @@
 
 
 /***************************************** 
- *************** PAGE ONE  ***************
+ *************** PAGE ZERO  ***************
  *****************************************/
-#page-one .col-1{
+#page-zero .col-1{
  	width: 45%;
  	height: 100%;
  	float: left;
 }
 
-#page-one .col-2{
+#page-zero .col-2{
  	width: 27.5%;
  	height: 100%;
  	float: left;
 }
 
-#page-one .col-3{
+#page-zero .col-3{
  	width: 27.5%;
  	height: 100%;
  	float: left;
 }
 
-#page-one .img-div{
+#page-zero .img-div{
 	margin: 0 auto;
 	height: 100%;
 	width: 80%;
@@ -90,14 +90,14 @@
 	position: relative;
 }
 
-#page-one .txt-div{
+#page-zero .txt-div{
 	margin: 0 auto;
 	height: 78%;
 	width: 80%;
 	position: relative;
 }
 
-#page-one .logo-div{
+#page-zero .logo-div{
 	margin: 0 auto;
 	height: 22%;
 	width: 80%;
@@ -105,54 +105,304 @@
 	text-align: left;
 }
 
-#page-one .logo-div img{
+#page-zero .logo-div img{
 	height: 100%;
 }
 
-#mutemuia-div{
-	background-image: url('../img/elements/modelli.png');
+
+/***************************************** 
+ *************** PAGE ONE VILLA  ***************
+ *****************************************/
+#page-one-villa .col-1{
+ 	width: 45%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-one-villa .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-one-villa .col-3{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-one-villa .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-one-villa .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 80%;
+	position: relative;
+}
+
+#page-one-villa .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+}
+
+#page-one-villa .logo-div img{
+	height: 100%;
+}
+
+
+/***************************************** 
+ *************** PAGE ONE HERCULANEUM  ***************
+ *****************************************/
+#page-one-herculaneum .col-1{
+ 	width: 45%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-one-herculaneum .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-one-herculaneum .col-3{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-one-herculaneum .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-one-herculaneum .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 80%;
+	position: relative;
+}
+
+#page-one-herculaneum .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+}
+
+#page-one-herculaneum .logo-div img{
+	height: 100%;
+}
+
+#villa-div{
+	background-image: url('../img/elements/villa.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#villa-finds-div{
+	background-image: url('../img/elements/finds_villa.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#herculaneum-finds-div{
+	background-image: url('../img/elements/finds_herculaneum.jpg');
 	background-color: #8B7D74;
 	position: relative;
 }
 
 /* DIV per i singoli oggetti */
-#naoforo-div{
-	background-image: url('../img/elements/naoforo.png');
+#obj1-villa-div{
+	background-image: url('../img/elements/corridori.png');
 	background-color: #8B7D74;
 	position: relative;
 }
 
-#cubo-div{
-	background-image: url('../img/elements/cubo.png');
+#obj1-villa-gallery-div{
+	background-image: url('../img/elements/corridori_gallery.jpg');
 	background-color: #8B7D74;
 	position: relative;
 }
 
-#paendua-div{
-	background-image: url('../img/elements/paendua.png');
+#obj2-villa-div{
+	background-image: url('../img/elements/maialino.png');
 	background-color: #8B7D74;
 	position: relative;
 }
 
-#scultore-div{
-	background-image: url('../img/elements/scultore.png');
+#obj2-villa-gallery-div{
+	background-image: url('../img/elements/maialino_gallery.jpg');
 	background-color: #8B7D74;
 	position: relative;
 }
 
-#testa-div{
-	background-image: url('../img/elements/testa.png');
+#obj3-villa-div{
+	background-image: url('../img/elements/athena-promachos.png');
 	background-color: #8B7D74;
 	position: relative;
 }
+
+#obj3-villa-gallery-div{
+	background-image: url('../img/elements/athena-promachos_gallery.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#obj4-villa-div{
+	background-image: url('../img/elements/satiro-dormiente.png');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#obj4-villa-gallery-div{
+	background-image: url('../img/elements/satiro-dormiente_gallery.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#obj5-villa-div{
+	background-image: url('../img/elements/hermes-a-riposo.png');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#obj5-villa-gallery-div{
+	background-image: url('../img/elements/hermes-a-riposo_gallery.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+
+#obj1-herculaneum-div{
+	background-image: url('../img/elements/busto-maschile.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#obj1-herculaneum-gallery-div{
+	background-image: url('../img/elements/busto-maschile_gallery.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#obj2-herculaneum-div{
+	background-image: url('../img/elements/lepre-e-gallinacci.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#obj2-herculaneum-gallery-div{
+	background-image: url('../img/elements/lepre-e-gallinacci_gallery.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#obj3-herculaneum-div{
+	background-image: url('../img/elements/coniglio-e-fichi.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#obj3-herculaneum-gallery-div{
+	background-image: url('../img/elements/coniglio-e-fichi_gallery.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#obj4-herculaneum-div{
+	background-image: url('../img/elements/pollo-sultano-prosciutti.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#obj4-herculaneum-gallery-div{
+	background-image: url('../img/elements/pollo-sultano-prosciutti_gallery.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#obj5-herculaneum-div{
+	background-image: url('../img/elements/frutta-in-una-cesta.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+#obj5-herculaneum-gallery-div{
+	background-image: url('../img/elements/frutta-in-una-cesta_gallery.jpg');
+	background-color: #8B7D74;
+	position: relative;
+}
+
 /* */
-#ushabti-div{
-	background-image: url('../img/elements/ushabti.png');
+#herculaneum-div{
+	background-image: url('../img/elements/herculaneum.jpg');
 	background-color: #945E3A;
 	position: relative;
 }
 
-#page-one .txt-div p{
+#villa-gallery-div{
+	background-image: url('../img/elements/gallery_villa.jpg');
+	background-color: #945E3A;
+	position: relative;
+}
+
+#herculaneum-gallery-div{
+	background-image: url('../img/elements/gallery_herculaneum.jpg');
+	background-color: #945E3A;
+	position: relative;
+}
+
+#page-zero .txt-div p{
+	color: #FFF;
+	font-size: 1.2em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+#page-one-villa .txt-div p{
+	color: #FFF;
+	font-size: 1.2em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+#page-one-herculaneum .txt-div p{
 	color: #FFF;
 	font-size: 1.2em;
  	line-height: 1.2;
@@ -177,16 +427,698 @@
 	padding: 3px;
 }
 
+#object-div{
+	background-image: url('../img/elements/modelli.png');
+	background-color: #8B7D74;
+	position: relative;
+}
+
+/***************************************** 
+ *************** PAGE OBJ1 VILLA ***************
+ *****************************************/
+#page-obj1-villa .col-1{
+ 	width: 45%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj1-villa .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj1-villa .col-3{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj1-villa .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-obj1-villa .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 95%;
+	position: relative;
+}
+
+#page-obj1-villa .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+	opacity: 0;
+}
+
+#page-obj1-villa .logo-div img{
+	height: 100%;
+}
+
+#page-obj1-villa .txt-div p{
+	color: #FFF;
+	font-size: 1.3em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+/***************************************** 
+ *************** PAGE OBJ2 VILLA ***************
+ *****************************************/
+#page-obj2-villa .col-1{
+ 	width: 45%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj2-villa .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj2-villa .col-3{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj2-villa .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-obj2-villa .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 95%;
+	position: relative;
+}
+
+#page-obj2-villa .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+	opacity: 0;
+}
+
+#page-obj2-villa .logo-div img{
+	height: 100%;
+}
+
+#page-obj2-villa .txt-div p{
+	color: #FFF;
+	font-size: 1.3em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+/***************************************** 
+ *************** PAGE OBJ3 VILLA ***************
+ *****************************************/
+#page-obj3-villa .col-1{
+ 	width: 45%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj3-villa .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj3-villa .col-3{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj3-villa .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-obj3-villa .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 95%;
+	position: relative;
+}
+
+#page-obj3-villa .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+	opacity: 0;
+}
+
+#page-obj3-villa .logo-div img{
+	height: 100%;
+}
+
+#page-obj3-villa .txt-div p{
+	color: #FFF;
+	font-size: 1.3em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+/***************************************** 
+ *************** PAGE OBJ4 VILLA ***************
+ *****************************************/
+#page-obj4-villa .col-1{
+ 	width: 45%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj4-villa .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj4-villa .col-3{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj4-villa .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-obj4-villa .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 95%;
+	position: relative;
+}
+
+#page-obj4-villa .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+	opacity: 0;
+}
+
+#page-obj4-villa .logo-div img{
+	height: 100%;
+}
+
+#page-obj4-villa .txt-div p{
+	color: #FFF;
+	font-size: 1.3em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+/***************************************** 
+ *************** PAGE OBJ5 VILLA ***************
+ *****************************************/
+#page-obj5-villa .col-1{
+ 	width: 45%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj5-villa .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj5-villa .col-3{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj5-villa .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-obj5-villa .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 95%;
+	position: relative;
+}
+
+#page-obj5-villa .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+	opacity: 0;
+}
+
+#page-obj5-villa .logo-div img{
+	height: 100%;
+}
+
+#page-obj5-villa .txt-div p{
+	color: #FFF;
+	font-size: 1.3em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+/***************************************** 
+ *************** PAGE OBJ1 HERCULANEUM ***************
+ *****************************************/
+#page-obj1-herculaneum .col-1{
+ 	width: 45%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj1-herculaneum .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj1-herculaneum .col-3{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj1-herculaneum .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-obj1-herculaneum .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 95%;
+	position: relative;
+}
+
+#page-obj1-herculaneum .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+	opacity: 0;
+}
+
+#page-obj1-herculaneum .logo-div img{
+	height: 100%;
+}
+
+#page-obj1-herculaneum .txt-div p{
+	color: #FFF;
+	font-size: 1.3em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+/***************************************** 
+ *************** PAGE OBJ2 HERCULANEUM ***************
+ *****************************************/
+#page-obj2-herculaneum .col-1{
+ 	width: 45%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj2-herculaneum .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj2-herculaneum .col-3{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj2-herculaneum .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-obj2-herculaneum .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 95%;
+	position: relative;
+}
+
+#page-obj2-herculaneum .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+	opacity: 0;
+}
+
+#page-obj2-herculaneum .logo-div img{
+	height: 100%;
+}
+
+#page-obj2-herculaneum .txt-div p{
+	color: #FFF;
+	font-size: 1.3em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+/***************************************** 
+ *************** PAGE OBJ3 HERCULANEUM ***************
+ *****************************************/
+#page-obj3-herculaneum .col-1{
+ 	width: 45%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj3-herculaneum .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj3-herculaneum .col-3{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj3-herculaneum .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-obj3-herculaneum .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 95%;
+	position: relative;
+}
+
+#page-obj3-herculaneum .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+	opacity: 0;
+}
+
+#page-obj3-herculaneum .logo-div img{
+	height: 100%;
+}
+
+#page-obj3-herculaneum .txt-div p{
+	color: #FFF;
+	font-size: 1.3em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+/***************************************** 
+ *************** PAGE OBJ4 HERCULANEUM ***************
+ *****************************************/
+#page-obj4-herculaneum .col-1{
+ 	width: 45%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj4-herculaneum .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj4-herculaneum .col-3{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj4-herculaneum .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-obj4-herculaneum .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 95%;
+	position: relative;
+}
+
+#page-obj4-herculaneum .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+	opacity: 0;
+}
+
+#page-obj4-herculaneum .logo-div img{
+	height: 100%;
+}
+
+#page-obj4-herculaneum .txt-div p{
+	color: #FFF;
+	font-size: 1.3em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+/***************************************** 
+ *************** PAGE OBJ5 HERCULANEUM ***************
+ *****************************************/
+#page-obj5-herculaneum .col-1{
+ 	width: 45%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj5-herculaneum .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj5-herculaneum .col-3{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj5-herculaneum .img-div{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	/*background-repeat: no-repeat; 
+	background-position: bottom right;
+	*/
+	background-size: cover;
+	background-position: center center;
+	cursor: pointer;
+	position: relative;
+}
+
+#page-obj5-herculaneum .txt-div{
+	margin: 0 auto;
+	height: 78%;
+	width: 95%;
+	position: relative;
+}
+
+#page-obj5-herculaneum .logo-div{
+	margin: 0 auto;
+	height: 22%;
+	width: 80%;
+	position: relative;
+	text-align: left;
+	opacity: 0;
+}
+
+#page-obj5-herculaneum .logo-div img{
+	height: 100%;
+}
+
+#page-obj5-herculaneum .txt-div p{
+	color: #FFF;
+	font-size: 1.3em;
+ 	line-height: 1.2;
+	text-align: justify;
+    text-justify: inter-word; 	
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
 /***************************************** 
  *************** PAGE OBJ1 ***************
  *****************************************/
 #page-obj1 .col-1{
- 	width: 65%;
+ 	width: 45%;
  	height: 100%;
  	float: left;
 }
 
 #page-obj1 .col-2{
+ 	width: 27.5%;
+ 	height: 100%;
+ 	float: left;
+}
+
+#page-obj1 .col-3{
  	width: 27.5%;
  	height: 100%;
  	float: left;
@@ -209,16 +1141,17 @@
 #page-obj1 .txt-div{
 	margin: 0 auto;
 	height: 78%;
-	width: 80%;
+	width: 95%;
 	position: relative;
 }
 
 #page-obj1 .logo-div{
 	margin: 0 auto;
 	height: 22%;
-	width: 80%;
+	width: 95%;
 	position: relative;
 	text-align: left;
+	opacity: 0;
 }
 
 #page-obj1 .logo-div img{
@@ -233,7 +1166,7 @@
 
 #page-obj1 .txt-div p{
 	color: #FFF;
-	font-size: 1.5em;
+	font-size: 1.3em;
  	line-height: 1.2;
 	text-align: justify;
     text-justify: inter-word; 	
@@ -572,14 +1505,12 @@
  *****************************************/
 #page-mutemuia .row-1 img{
 	height: 45%;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 #page-mutemuia .row-2 img{
 	height: 45%;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 
@@ -738,6 +1669,52 @@
 
 
 /***************************************** 
+ *********** PAGE VILLA 3D  ***********
+ *****************************************/
+.page-villa-3d .row-1{
+	margin: 0;
+	text-align: left;
+	position: relative;
+	width: 100%;
+	height: 0%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-sizing: border-box;	
+}
+
+.page-villa-3d .row-1 img{
+	height: 100%;
+}
+
+.page-villa-3d .row-2{
+	margin: 0;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.page-villa-3d .row-2 .sel-div{
+	margin-left: 2.6%;
+	text-align: right;
+	position: relative;
+	width: 17%;
+	height: 90%;
+	float: left;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.page-villa-3d .row-2 .first{
+	margin: 0!important;
+}
+
+.page-villa-3d .row-2 .sel-div img{
+	height: 100%;
+}
+
+
+/***************************************** 
  *********** PAGE MUTEMUIA 3D  ***********
  *****************************************/
 #page-mutemuia-3d .row-1{
@@ -748,7 +1725,6 @@
 	height: 22%;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;	
 }
 
@@ -793,7 +1769,6 @@
 	height: 22%;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;	
 }
 
@@ -838,7 +1813,6 @@
 	height: 22%;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;	
 }
 
@@ -883,7 +1857,6 @@
 	height: 22%;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;	
 }
 
@@ -928,7 +1901,6 @@
 	height: 22%;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;	
 }
 
@@ -973,7 +1945,6 @@
 	height: 22%;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;	
 }
 
@@ -1020,7 +1991,6 @@
 	height: 22%;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;	
 }
 
@@ -1057,12 +2027,22 @@
 
 
 /*****************************************/
-#page-obj1-gallery .gallery{
+#page-villa-gallery .gallery{
+	width: 100%;
+	height: 100%;
+}
+
+#page-villa-gallery .gallery .swiper-container {
+   width: 100%;
+   height: 100%!important;
+}
+
+#page-herculaneum-gallery .gallery{
  	width: 100%;
  	height: 100%;
 }
 
-#page-obj1-gallery .gallery .swiper-container {
+#page-herculaneum-gallery .gallery .swiper-container {
     width: 100%;
     height: 100%!important;
 }
@@ -1265,7 +2245,6 @@
 	height: 22%;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;	
 }
 

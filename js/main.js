@@ -24,121 +24,184 @@ function initThreeDGallery(){
 	threeDGallery.start();
 }
 
-function initObj1Gallery(){
-	obj1Gallery.start();
+function initVillaGallery(){
+	villaGallery.start();
 }
 
-function stopObj1Gallery(){
-	obj1Gallery.goFirst();
+function stopVillaGallery(){
+	villaGallery.goFirst();
 }
 
-function initObj2Gallery(){
-	obj2Gallery.start();
+function initHerculaneumGallery(){
+	herculaneumGallery.start();
 }
 
-function stopObj2Gallery(){
-	obj2Gallery.goFirst();
+function stopHerculaneumGallery(){
+	herculaneumGallery.goFirst();
+}
+
+function initObj1VillaGallery(){
+	obj1VillaGallery.start();
+}
+
+function stopObj1VillaGallery(){
+	obj1VillaGallery.goFirst();
+}
+
+function initObj2VillaGallery(){
+	obj2VillaGallery.start();
+}
+
+function stopObj2VillaGallery(){
+	obj2VillaGallery.goFirst();
+}
+
+function initObj3VillaGallery(){
+	obj3VillaGallery.start();
+}
+
+function stopObj3VillaGallery(){
+	obj3VillaGallery.goFirst();
+}
+
+function initObj4VillaGallery(){
+	obj4VillaGallery.start();
+}
+
+function stopObj4VillaGallery(){
+	obj4VillaGallery.goFirst();
+}
+
+function initObj5VillaGallery(){
+	obj5VillaGallery.start();
+}
+
+function stopObj5VillaGallery(){
+	obj5VillaGallery.goFirst();
+}
+
+function initObj1HerculaneumGallery(){
+	obj1HerculaneumGallery.start();
+}
+
+function stopObj1HerculaneumGallery(){
+	obj1HerculaneumGallery.goFirst();
+}
+
+function initObj2HerculaneumGallery(){
+	obj2HerculaneumGallery.start();
+}
+
+function stopObj2HerculaneumGallery(){
+	obj2HerculaneumGallery.goFirst();
+}
+
+function initObj3HerculaneumGallery(){
+	obj3HerculaneumGallery.start();
+}
+
+function stopObj3HerculaneumGallery(){
+	obj3HerculaneumGallery.goFirst();
+}
+
+function initObj4HerculaneumGallery(){
+	obj4HerculaneumGallery.start();
+}
+
+function stopObj4HerculaneumGallery(){
+	obj4HerculaneumGallery.goFirst();
+}
+
+function initObj5HerculaneumGallery(){
+	obj5HerculaneumGallery.start();
+}
+
+function stopObj5HerculaneumGallery(){
+	obj5HerculaneumGallery.goFirst();
 }
 
 
-function initObj3Gallery(){
-	obj3Gallery.start();
+
+
+
+function animateObj1Villa(){
+	render_obj1_villa.animate();
 }
 
-function stopObj3Gallery(){
-	obj3Gallery.goFirst();
+function stopObj1Villa(){
+	render_obj1_villa.stop();
 }
 
-
-function initObj4Gallery(){
-	obj4Gallery.start();
+function animateObj2Villa(){
+	render_obj2_villa.animate();
 }
 
-function stopObj4Gallery(){
-	obj4Gallery.goFirst();
+function stopObj2Villa(){
+	render_obj2_villa.stop();
 }
 
-
-function initObj5Gallery(){
-	obj5Gallery.start();
+function animateObj3Villa(){
+	render_obj3_villa.animate();
 }
 
-function stopObj5Gallery(){
-	obj5Gallery.goFirst();
+function stopObj3Villa(){
+	render_obj3_villa.stop();
 }
 
-
-function animateMute1(){
-	console.log("animateMute1");
-	render_mute_1.animate();
+function animateObj4Villa(){
+	render_obj4_villa.animate();
 }
 
-function stopMute1(){
-	console.log("stopMute1");
-	render_mute_1.stop();
+function stopObj4Villa(){
+	render_obj4_villa.stop();
 }
 
-
-function animateMute2(){
-	console.log("animateMute2");
-	render_mute_2.animate();
+function animateObj5Villa(){
+	render_obj5_villa.animate();
 }
 
-function stopMute2(){
-	console.log("stopMute2");
-	render_mute_2.stop();
+function stopObj5Villa(){
+	render_obj5_villa.stop();
 }
 
-
-function animateMute3(){
-	console.log("animateMute3");
-	render_mute_3.animate();
+function animateObj1Herculaneum(){
+	render_obj1_herculaneum.animate();
 }
 
-function stopMute3(){
-	console.log("stopMute3");
-	render_mute_3.stop();
+function stopObj1Herculaneum(){
+	render_obj1_herculaneum.stop();
 }
 
-
-function animateUshabtiBox(){
-	console.log("animateUshabtiBox");
-	render_cofanetto.animate();
+function animateObj2Herculaneum(){
+	render_obj2_herculaneum.animate();
 }
 
-function stopUshabtiBox(){
-	console.log("stopUshabtiBox");
-	render_cofanetto.stop();
+function stopObj2Herculaneum(){
+	render_obj2_herculaneum.stop();
 }
 
-function animateUshabti1(){
-	console.log("animateUshabti1");
-	render_ushabti1.animate();
+function animateObj3Herculaneum(){
+	render_obj3_herculaneum.animate();
 }
 
-function stopUshabti1(){
-	console.log("stopUshabti1");
-	render_ushabti1.stop();
+function stopObj3Herculaneum(){
+	render_obj3_herculaneum.stop();
 }
 
-function animateUshabti2(){
-	console.log("animateUshabti2");
-	render_ushabti2.animate();
+function animateObj4Herculaneum(){
+	render_obj4_herculaneum.animate();
 }
 
-function stopUshabti2(){
-	console.log("stopUshabti2");
-	render_ushabti2.stop();
+function stopObj4Herculaneum(){
+	render_obj4_herculaneum.stop();
 }
 
-function animateUshabti3(){
-	console.log("animateUshabti3");
-	render_ushabti3.animate();
+function animateObj5Herculaneum(){
+	render_obj5_herculaneum.animate();
 }
 
-function stopUshabti3(){
-	console.log("stopUshabti3");
-	render_ushabti3.stop();
+function stopObj5Herculaneum(){
+	render_obj5_herculaneum.stop();
 }
 
 function clearAndGoHome(){

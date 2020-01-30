@@ -1,0 +1,52 @@
+<!--
+***************************************************
+***************** RENDER OBJ9 ***************
+***************************************************
+-->
+<div id="render_obj9_villa" class="page render_obj_villa" style="display: none;">
+	<i class="fa fa-times-circle-o fa-3x nav-close nav-goPage" data-pageid="page-obj9-villa" data-cbfunc="stopObjVilla" aria-hidden="true"></i>
+	<div id="dpi"></div>
+	<p style="color:#808080" id="demo"></p>
+<div id="footer1">
+<table align="center" valign="bottom">
+		<td align="right" valign="center">
+			<div id="g1"></div>
+			<script>
+				var g1;
+				var valGage1=100;
+                val = getRandomInt(0, 200);
+
+                g1 = new JustGage({
+                    id: "g1",
+                    value: val,
+                    min: 0,
+                    max: 200,
+                    title: "",
+                    label: "of real size"
+                });
+				setInterval(function() {
+					g1.refresh(valGage1);
+					valGage1=100;
+				}, 250);
+			</script>
+		</td>
+		
+		<td align="left" valign="bottom">
+			<span tkey="3dsize"></span><br>
+			<span tkey="realsize"></span><br>
+			<span id="void"></span><br>
+		</td>
+		<td align="left" valign="bottom">
+			<span id="myText">2 cm</span><br>
+			<span id="myText2">3 cm</span><br>
+			<span id="void"></span><br>
+		</td>
+</table>
+</div>
+</div>
+<!--=== END RENDER OBJ9 ===-->	
+
+<script>
+    render_obj_villa.init(9);
+    animateObjVilla();
+</script>

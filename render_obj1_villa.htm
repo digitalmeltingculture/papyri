@@ -3,8 +3,8 @@
 ***************** RENDER OBJ1 ***************
 ***************************************************
 -->
-<div id="render_obj1_villa" class="page" style="display: none;">
-	<i class="fa fa-times-circle-o fa-3x nav-close nav-goPage" data-pageid="page-obj1-villa" data-cbfunc="stopObj1Villa" aria-hidden="true"></i>
+<div id="render_obj1_villa" class="page render_obj_villa" style="display: none;">
+	<i class="fa fa-times-circle-o fa-3x nav-close nav-goPage" data-pageid="page-obj1-villa" data-cbfunc="stopObjVilla" aria-hidden="true"></i>
 	<div id="dpi"></div>
 	<p style="color:#808080" id="demo"></p>
 <div id="footer1">
@@ -44,13 +44,9 @@
 </table>
 </div>
 </div>
-<!--=== END MUTEMUIA 1 ===-->	
+<!--=== END RENDER OBJ1 ===-->	
 
 <script>
-    render_obj1_villa.init();
-    animateObj1Villa();
-
-    $(document).on('click', '#render_obj1_villa > i.nav-close', function(){
-        stopObj1Villa();
-    });
+    render_obj_villa.init(1);
+    animateObjVilla();
 </script>
